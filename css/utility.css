@@ -1,0 +1,51 @@
+/* root */
+:root {
+    /* fontsize */
+    --fs-100: 14px;
+    --fs-150: 16px;
+    --fs-200: 20px;
+    --fs-300: 24px;
+    --fs-400: 30px;
+    --fs-500: 43px;
+
+    /* clr*/
+    --priemay-clr-100: hsla(0, 0%, 28%, 1);
+    --secondary-clr-100: #fff;
+    --secondary-clr-200: hsl(0, 0%, 93%, 0.16);
+    
+}
+
+/* utility classes */
+.fs-100 {
+    font-size: var(--fs-100);
+}
+.fs-150 {
+    font-size: var(--fs-150);
+}
+.fs-200 {
+    font-size: var(--fs-200);
+}
+.fs-300 {
+    font-size: var(--fs-300);
+}
+.fs-400 {
+    font-size: var(--fs-400);
+}
+.fs-500 {
+    font-size: var(--fs-500);
+}
+.priemay-clr-100 {
+    color: var(--priemay-clr-100);
+}
+.secondary-clr-100 {
+    color: var(--secondary-clr-100);
+}
+.priemay-clr-100-bg {
+    background-color: var(--priemay-clr-100);
+}
+.secondary-clr-200-bg {
+    background-color: var(--secondary-clr-200);
+}
+.ff-bold {
+    font-family: 'ninomtavruli-bold';
+}
